@@ -1,0 +1,59 @@
+/* In index.css or App.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f9fafb;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .search-bar {
+    justify-self: flex-start;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #374151;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+
+  }
+  .log-out{
+    width: 50px;
+    padding-left: 15px;
+  }
+  .icon-space{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .image-icon{
+    width: 30px;
+    height: 30px;
+    border-radius:100%;
+  }
+  .name-box{
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .bg-yellow{
+   background-color:#FCCC55;
+   color: #44486D;
+   ;
+
+  }
+  .bg-pink{
+    background-color: #E553BC;
+    color: white;
+    ;
+  }
